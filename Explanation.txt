@@ -1,0 +1,48 @@
+kumar is given a challenging string,
+kumar have a string S of lowercase letters, and an integer array shifts.
+Call the shift of a letter, the next letter in the alphabet, (wrapping around so that 'z' becomes 'a'). 
+For example, shift('a') = 'b', shift('t') = 'u', and shift('z') = 'a'.
+Now for each shifts[i] = x, we want to shift the first i+1 letters of S, x times.
+Return the final string after all such shifts to S are applied.
+
+Input description:
+S given in string in First line
+second line array to shift the charcaters of S (2<size of array<1000)
+
+Output description:
+the final string after all such shifts to S are applied
+
+Sample input:
+abc
+2 3 4
+
+Sample Output:
+jig
+
+Sample input:
+xyz
+3 4 5
+
+Sample output:
+jhe
+
+Sample input:
+sud
+3 4 5
+
+Sample Output:
+edi
+
+Sample input:
+guv
+3 4 7
+
+Sample output:
+ufc
+
+Sample input:
+who
+6 7 8
+
+Sample output:
+rww
